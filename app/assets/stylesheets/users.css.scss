@@ -1,3 +1,4 @@
+/* Users Show Page */ 
 .job-title-icon {
   display: inline-block;
   width: 36px;
@@ -7,15 +8,6 @@
   background-color: #337ab7;
   color: white;
   text-align: center
-}
-
-.profile-picture{
-  border-radius: 50%;
-  -webkit-box-shadow: 5px 10px 13px 0px rgba(50, 50, 50, 0.75);
-  -moz-box-shadow:    5px 10px 13px 0px rgba(50, 50, 50, 0.75);
-  box-shadow:         5px 10px 13px 0px rgba(50, 50, 50, 0.75);
-  border: 2px;
-  border-color: #fff;
 }
 
 .well.profile-description {
@@ -33,5 +25,30 @@
   h3 {
     margin-top: 0;
   }
+}
+
+.profile-show-avatar{
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  -webkit-box-shadow: 5px 10px 13px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    5px 10px 13px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         5px 10px 13px 0px rgba(50, 50, 50, 0.75);
+  border: 2px;
+  border-color: #fff;
+}
+
+/* Users Index Page */
+
+.user-index-avatar {
+  border-radius: 50%;
+  -webkit-box-shadow: 5px 10px 13px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    5px 10px 13px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         5px 10px 13px 0px rgba(50, 50, 50, 0.75);
+}
+
+
+.well.white-bg {
+  background-color: white;
 }
 
